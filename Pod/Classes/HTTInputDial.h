@@ -12,17 +12,17 @@
 
 @protocol HTTInputDialDelegate <NSObject>
 
-- (void)inputDial:(HTTInputDial *)inputDial didUpdateValue:(int)value;
+- (void)inputDial:(nonnull HTTInputDial *)inputDial didUpdateValue:(int)value;
 
 @end
 
 @interface HTTInputDial : UIView <UIGestureRecognizerDelegate>
 
-- (id)initWithFrame:(CGRect)frame
-         usingImage:(UIImage *)image
-           minValue:(int)minValue
-           maxValue:(int)maxValue
-  fullRotationValue:(int)fullRotationValue;
+- (nonnull id)initWithFrame:(CGRect)frame
+                 usingImage:(nonnull UIImage *)image
+                   minValue:(int)minValue
+                   maxValue:(int)maxValue
+          fullRotationValue:(int)fullRotationValue;
 
 - (void)setValue:(int)value;
 - (int)getValue;
