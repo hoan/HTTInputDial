@@ -10,7 +10,7 @@
 
 ## Example
 
-![alt tag](https://raw.github.com/hoan/HTTInputDial/master/example.gif)
+![alt tag](https://raw.github.com/hoan/HTTInputDial/master/example-2.gif)
 
 ## Usage
 
