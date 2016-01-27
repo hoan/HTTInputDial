@@ -10,6 +10,8 @@
 
 ## Example
 
+![alt tag](https://raw.github.com/hoan/HTTInputDial/master/example.gif)
+
 ## Usage
 
 First install `HTTInputDial` with [CocoaPods](http://cocoapods.org):
