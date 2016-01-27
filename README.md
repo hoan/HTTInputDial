@@ -6,13 +6,11 @@
 
 ## What is it?
 
-`HTTInputDial` is circular input dial for iPhone apps. It is good for having an easy to use iPod click wheel style interface. It is used in the Unplugged app.
+`HTTInputDial` is circular input dial for iPhone apps. It is good for having an easy to use iPod click wheel style interface. It is used in the [Unplugged](http://unpluggedtime.com) app.
 
 ## Example
 
 ## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 First install `HTTInputDial` with [CocoaPods](http://cocoapods.org):
 
@@ -29,7 +27,7 @@ Then at the top of your View Controller add the import:
 Create a HTTDialView:
 
 ```objective-c
-HTTInputDial *dialView = [[HTTInputDial alloc] initWithFrame:CGRectMake(50, y, 220, 220)
+HTTInputDial *dialView = [[HTTInputDial alloc] initWithFrame:CGRectMake(50, 50, 220, 220)
                                                   usingImage:[UIImage imageNamed:@"circle-and-arrow"]
                                                     minValue:0
                                                     maxValue:24*60
@@ -62,7 +60,7 @@ Set your View Controller to have `HTTInputDialDelegate` as a protocol and then y
 }
 ```
 
-You will have to create your own label for the above example to work.
+You will have to create your own label for the above example to work. Finally you can use `[inputDial getValue]` to get the current value.
 
 ## Issues
 
@@ -75,3 +73,9 @@ Hoan Ton-That, hoan.tonthat@gmail.com
 ## License
 
 HTTInputDial is available under the MIT license. See the LICENSE file for more info.
+
+## Thanks
+
+Thanks to Dursun Koc for the original `DKTuner` this was based on: https://github.com/dursunkoc/DKTuner
+
+Thanks to Joshua Keay for the visual design.
